@@ -27,6 +27,9 @@ header {
 header h1 {
     display: inline-block;
     font-size: 48px;
+    background-color: lightblue;
+    padding: 5px;
+    color: black;
 }
 
 header nav {
@@ -66,6 +69,9 @@ header nav ul li {
     bottom: 16px;
     right: 32px;
     font-size: 40px;
+    background-color: lightblue;
+    padding: 5px;
+    color: black;
 }
 
 /*
@@ -82,18 +88,19 @@ This part of the CSS sheet marks the start of the written sections.
     font-size: 40px;
     color: darkblue;
     text-align: right;
-    border-right: solid;
     padding-right: 15px;
     margin-left: 15px;
 }
 
 .about-me-container .about-me-desc {
-    padding-left: 15px;
     display: flex;
+    padding-left: 15px;
+    border-left: solid;
 }
 
 .about-me-container .about-me-desc p {
     display: flex;
+    color: darkblue;
     justify-content: center;
     align-items: center;
 }
@@ -108,7 +115,6 @@ This part of the CSS sheet marks the start of the written sections.
     font-size: 40px;
     color: darkblue;
     text-align: right;
-    border-right: solid;
     padding-right: 15px;
     margin-left: 15px;
 }
@@ -121,6 +127,8 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_grid
 */
 
 .work-container .grid-container {
+    border-left: solid;
+    color: darkblue;
     display: grid;
     grid-template-columns: auto auto;
     padding: 15px;
@@ -155,7 +163,6 @@ https://gifer.com/en/HSYv
 
 .contact-me-container h1 {
     display: inline-block;
-
     font-size: 40px;
     color: darkblue;
     text-align: right;
@@ -179,7 +186,10 @@ https://gifer.com/en/HSYv
 }
 
 .resume h1 {
+    display: inline-block;
     font-size: 40px;
-    text-decoration: underline;
     color: darkblue;
+    border-right: solid;
+    padding-right: 15px;
+    margin-left: 15px;
 }
