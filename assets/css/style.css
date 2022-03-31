@@ -84,7 +84,7 @@ This part of the CSS sheet marks the start of the written sections.
     padding: 20px;
 }
 
-.about-me-container .title h1 {
+.about-me-container .title {
     font-size: 40px;
     color: darkblue;
     text-align: right;
@@ -105,13 +105,18 @@ This part of the CSS sheet marks the start of the written sections.
     align-items: center;
 }
 
+/*
+WORK SECTION CODE
+*/
+
 .work-container {
+    position: relative;
     display: flex;
     flex-direction: row;
     padding: 20px;
 }
 
-.work-container .title h1 {
+.work-container .title {
     font-size: 40px;
     color: darkblue;
     text-align: right;
@@ -141,10 +146,9 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_grid
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
-    text-align: center;
   }
 
-  /*
+/*
 Image scources
 
 https://tenor.com/view/box-squares-patterns-sprites-gif-11205351
@@ -152,8 +156,12 @@ https://gifer.com/en/HSYv
 */
   .grid-item img {
     width: 100%;
-    min-width: 400px;
+    max-width: 400px;
   }
+
+/*
+CONTACT ME CODE
+*/
 
 .contact-me-container {
     display: flex;
@@ -193,3 +201,9 @@ https://gifer.com/en/HSYv
     padding-right: 15px;
     margin-left: 15px;
 }
+
+/*
+Responsive layout info
+
+https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
+*/
