@@ -85,6 +85,7 @@ ABOUT ME, PROJECTS, CONTACT ME, RESUME
 
 .title {
     width: 200px;
+    text-align: right;
 }
 
 .about-me-container .title {
@@ -222,29 +223,6 @@ CONTACT ME CODE
     color: darkblue;
     justify-content: center;
     align-items: center;
-}
-
-.resume-container {
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-}
-
-.resume-container .title {
-    width: 200px;
-    font-size: 40px;
-    color: darkblue;
-    padding-right: 15px;
-    margin-left: 15px;
-}
-
-.resume-container a {
-    padding-left: 15px;
-    /* border-left: solid; */
-    color: darkblue;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
 }
 
 footer h3 {
