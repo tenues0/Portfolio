@@ -83,6 +83,10 @@ ABOUT ME, PROJECTS, CONTACT ME, RESUME
     padding: 20px;
 }
 
+.title {
+    width: 200px;
+}
+
 .about-me-container .title {
     font-size: 40px;
     color: darkblue;
@@ -128,16 +132,41 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_grid
     border-left: solid;
     color: darkblue;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2, 1fr);
     padding: 15px;
     column-gap: 10px;
     row-gap: 15px;
   }
 
+ .top-project {
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    /*background-color: rgba(255, 255, 255, 0.8);
+    border: 10px solid rgba(0, 0, 0, 0.8);*/
+    font-size: 30px;
+  }
+
+  .top-project img {
+      width: 100%;
+  }
+
+  .top-project-text {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    font-size: 30px;
+    background-color: lightblue;
+    padding: 5px;
+    color: black;
+  }
+
   .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
+    position: relative;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* border: 10px solid rgba(0, 0, 0, 0.8); */
     font-size: 30px;
   }
 
@@ -150,6 +179,16 @@ https://gifer.com/en/HSYv
   .grid-item img {
     width: 100%;
     max-width: 400px;
+  }
+
+  .projects-text {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    font-size: 30px;
+    background-color: lightblue;
+    padding: 5px;
+    color: black;
   }
 
 /*
@@ -192,6 +231,7 @@ CONTACT ME CODE
 }
 
 .resume-container .title {
+    width: 200px;
     font-size: 40px;
     color: darkblue;
     padding-right: 15px;
@@ -200,14 +240,14 @@ CONTACT ME CODE
 
 .resume-container a {
     padding-left: 15px;
-    border-left: solid;
+    /* border-left: solid; */
     color: darkblue;
     justify-content: center;
     align-items: center;
     font-size: 16px;
 }
 
-footer {
+footer h3 {
     padding: 20px;
     color: darkblue;
     justify-content: center;
