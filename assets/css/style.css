@@ -48,6 +48,10 @@ header nav ul li {
     text-decoration: underline;
 }
 
+header nav ul li a:hover {
+  color: white;
+}
+
 .banner {
     position: relative;
     text-align: center;
@@ -144,6 +148,10 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_grid
       width: 100%;
   }
 
+  .top-project img:hover {
+    opacity: .5;
+}
+
   .top-project-text {
     position: absolute;
     bottom: 16px;
@@ -170,6 +178,10 @@ https://gifer.com/en/HSYv
   .grid-item img {
     width: 100%;
     max-width: 400px;
+  }
+
+  .grid-item img:hover {
+    opacity: .5;
   }
 
   .projects-text {
@@ -203,8 +215,16 @@ CONTACT ME CODE
     align-items: center;
 }
 
+.container ul li:hover {
+  color: white;
+}
+
 .container ul li a {
     color: black;
+}
+
+.container ul li a:hover {
+  color: white;
 }
 
 footer {
