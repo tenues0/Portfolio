@@ -93,10 +93,6 @@ ABOUT ME, PROJECTS, CONTACT ME, RESUME
 
 .title {
     width: 200px;
-    text-align: right;
-}
-
-.about-me-container .title {
     font-size: 40px;
     color: black;
     text-align: right;
@@ -121,13 +117,6 @@ PROJECTS SECTION CODE
     display: flex;
     flex-direction: row;
     padding: 20px;
-}
-
-.projects-container .title {
-    font-size: 40px;
-    color: black;
-    text-align: right;
-    padding-right: 15px;
 }
 
 /* 
@@ -208,12 +197,6 @@ CONTACT ME CODE
     padding: 20px;
 }
 
-.contact-me-container .title {
-    font-size: 40px;
-    color: black;
-    padding-right: 15px;
-}
-
 .contact-me-container ul {
     display: flex;
     list-style-type: none;
@@ -243,12 +226,15 @@ footer {
     font-size: 30px;
 }
 
+
 /*
-Responsive layout info
+Practice with media query. Could not get the 768px screen to change color.
 
 https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
+
+Use flex-wrap: wrap; for the media queries
 */
-/* Use flex-wrap: wrap; for the media queries */
+
 
 /* screen layout at 992px or smaller */
 @media (max-width: 992px) {
@@ -260,9 +246,6 @@ https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
     }
 
   }
-
-
-
 
   /* 768 PX CODE NOT WORKING FOR SOME REASON */
   /* screen layout at 768px or smaller */
@@ -280,5 +263,3 @@ https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
         flex-direction: column;
     }
   }
-
-
