@@ -5,12 +5,12 @@
 }
 
 a {
-    color: yellow;
+    color: lightblue;
     text-decoration: none;
 }
 
 body {
-    background-color: yellow;
+    background-color: lightblue;
 }
 
 header {
@@ -23,9 +23,9 @@ header {
 header h1 {
     display: inline-block;
     font-size: 48px;
-    background-color: yellow;
     padding: 5px;
     color: black;
+    background-color: lightblue;
 }
 
 header nav {
@@ -75,7 +75,7 @@ header nav ul li {
     bottom: 16px;
     right: 32px;
     font-size: 40px;
-    background-color: yellow;
+    background-color: lightblue;
     padding: 5px;
     color: black;
 }
@@ -153,8 +153,6 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_grid
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    /*background-color: rgba(255, 255, 255, 0.8);
-    border: 10px solid rgba(0, 0, 0, 0.8);*/
     font-size: 30px;
   }
 
@@ -167,7 +165,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_grid
     bottom: 16px;
     left: 16px;
     font-size: 30px;
-    background-color: yellow;
+    background-color: lightblue;
     padding: 5px;
     color: black;
   }
@@ -195,7 +193,7 @@ https://gifer.com/en/HSYv
     bottom: 16px;
     left: 16px;
     font-size: 30px;
-    background-color: yellow;
+    background-color: lightblue;
     padding: 5px;
     color: black;
   }
