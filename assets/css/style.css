@@ -29,6 +29,7 @@ header h1 {
 }
 
 header nav {
+    display: flex;
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -37,7 +38,7 @@ header nav {
 }
 
 header nav ul {
-    display: flex;
+    /* display: flex; */
     list-style-type: none;
 }
 
@@ -166,7 +167,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_grid
     bottom: 16px;
     left: 16px;
     font-size: 30px;
-    background-color: black;
+    background-color: yellow;
     padding: 5px;
     color: black;
   }
@@ -194,7 +195,7 @@ https://gifer.com/en/HSYv
     bottom: 16px;
     left: 16px;
     font-size: 30px;
-    background-color: black;
+    background-color: yellow;
     padding: 5px;
     color: black;
   }
@@ -252,29 +253,34 @@ https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
 /* Use flex-wrap: wrap; for the media queries */
 
 /* screen layout at 992px or smaller */
-@media screen and (max-width: 992px) {
+@media (max-width: 992px) {
     body {
         background-color: green;
       }
-    /* Change the header color */
     header {
       background: green;
     }
+
   }
-  
 
 
 
 
   /* 768 PX CODE NOT WORKING FOR SOME REASON */
   /* screen layout at 768px or smaller */
-  @media screen and (max-width: 768px) {
+  @media (max-width: 768px) {
     body {
-        background-color: blue;
+        background-color: orange;
       }
     /* Change the header color */
     header {
-      background: blue;
+      background: orange;
+    }
+
+    main, 
+    header nav ul {
+        flex-direction: column;
     }
   }
-  
+
+
