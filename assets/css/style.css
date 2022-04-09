@@ -248,10 +248,10 @@ Use flex-wrap: wrap; for the media queries
 /* screen layout at 992px or smaller */
 @media (max-width: 992px) {
     body {
-        background-color: green;
+        background-color: lightgoldenrodyellow;
       }
     header {
-      background: green;
+      background: lightgoldenrodyellow;
     }
 
   }
