@@ -4,10 +4,10 @@
     margin: 0;
 }
 
-a {
+/* a {
     color: lightblue;
     text-decoration: none;
-}
+} */
 
 body {
     background-color: lightblue;
@@ -46,6 +46,10 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
     text-decoration: underline;
+}
+
+header nav ul li a {
+  color: lightblue;
 }
 
 header nav ul li a:hover {
@@ -253,7 +257,23 @@ Use flex-wrap: wrap; for the media queries
     header {
       background: lightgoldenrodyellow;
     }
-
+    header h1 {
+      color: lightgoldenrodyellow;
+      background-color: black;
+    }
+    header nav ul li a {
+      color: black;
+    }
+    .banner-text,
+    .top-project-text,
+    .projects-text {
+      background-color: lightgoldenrodyellow;
+      font-size: 20px;
+    }
+    .grid-item img {
+      width: 100%;
+      max-width: 300px;
+    }
   }
 
   /* 768 PX CODE NOT WORKING FOR SOME REASON */
