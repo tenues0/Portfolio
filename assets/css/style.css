@@ -4,11 +4,6 @@
     margin: 0;
 }
 
-/* a {
-    color: lightblue;
-    text-decoration: none;
-} */
-
 body {
     background-color: lightblue;
 }
@@ -53,6 +48,10 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
+  color: white;
+}
+
+button:hover {
   color: white;
 }
 
