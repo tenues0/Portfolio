@@ -260,6 +260,7 @@ Use flex-wrap: wrap; for the media queries
     header h1 {
       color: lightgoldenrodyellow;
       background-color: black;
+      font-size: 24px;
     }
     header nav ul li a {
       color: black;
@@ -281,8 +282,7 @@ Use flex-wrap: wrap; for the media queries
   @media (max-width: 768px) {
     body {
         background-color: orange;
-      }
-    /* Change the header color */
+    }
     header {
       background: orange;
     }
@@ -292,3 +292,29 @@ Use flex-wrap: wrap; for the media queries
         flex-direction: column;
     }
   }
+
+/*
+https://stackoverflow.com/questions/57266515/media-screen-and-max-width768px-not-working
+
+
+You should write media queries from small screens to large screens. Becouse last line css code overwrites to over previous css lines. For example from bootstrap;
+
+// Small devices (landscape phones, 576px and up)
+@media screen and (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media screen and (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media screen and (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+/*
+1) need to fix media query for both sizes
+2) add project screenshots instead of placeholder pictures
+3) add proper readmes to the pinned repos
+*/
