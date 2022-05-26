@@ -275,6 +275,9 @@ Use flex-wrap: wrap; for the media queries
       width: 100%;
       max-width: 300px;
     }
+    .title {
+      font-size: 20px;
+    }
   }
 
   /* 768 PX CODE NOT WORKING FOR SOME REASON */
