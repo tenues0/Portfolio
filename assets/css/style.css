@@ -197,6 +197,16 @@ https://gifer.com/en/HSYv
     color: black;
   }
 
+  .button-text {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    font-size: 30px;
+    background-color: lightblue;
+    padding: 5px;
+    color: black;
+  }
+
 /*
 CONTACT ME CODE
 */
@@ -239,17 +249,11 @@ footer {
 }
 
 
-/*
-Practice with media query. Could not get the 768px screen to change color.
+/* From week 2 lesson 1*/
+/* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
 
-https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
-
-Use flex-wrap: wrap; for the media queries
-*/
-
-
-/* screen layout at 992px or smaller */
-@media (max-width: 992px) {
+/* Tablets - screen layout at 992px or smaller */
+@media screen and (max-width: 992px) {
     body {
         background-color: lightgoldenrodyellow;
       }
@@ -277,23 +281,18 @@ Use flex-wrap: wrap; for the media queries
     .title {
       font-size: 20px;
     }
-  }
+}
 
-  /* 768 PX CODE NOT WORKING FOR SOME REASON */
-  /* screen layout at 768px or smaller */
-  @media (max-width: 768px) {
-    body {
-        background-color: orange;
+/* Large smartphones - screen layout at 768px or smaller */
+@media screen and (max-width: 768px) {
+  body {
+      background-color: orange;
     }
-    header {
-      background: orange;
-    }
-
-    main, 
-    header nav ul {
-        flex-direction: column;
-    }
+  header {
+    background: orange;
   }
+}
+
 
 /*
 https://stackoverflow.com/questions/57266515/media-screen-and-max-width768px-not-working
