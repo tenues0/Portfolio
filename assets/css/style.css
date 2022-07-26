@@ -395,32 +395,3 @@ You should write media queries from small screens to large screens. Becouse last
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
-/*
-Comments from grader:
-
-Thanks for submitting the assignment. You’ve got some good code here, 
-but more work is needed to meet the assignment requirements. 
-Your page contains all of the required projects, profiles, resume, 
-and contact information. Its design is polished, but not properly 
-mobile responsive (content doesn't meaningfully adapt, fonts small on mobile) 
-and its projects lack screenshots (placeholder images used instead) 
-and links to their code repositories.
-
-Your Github profile lacks a photo or avatar, email, and a link to your 
-deployed portfolio. Some of its pinned repos lack proper READMEs 
-('merge-conflict-test'), and it should be following at least a 
-few classmates and/or other developers.
-
-Comments to write when resubmitting:
-I have fixed the following items for grade resubmission:
-1) I hae added three media queries to the CSS code: 768px, 992px, and 1200px.
-I understand how they work a little better.
-2) I am using screenshots from the other projects as the images for the projects,
-thereby taking out the placeholder images, although there is still one
-placeholder image.
-3) I have updated my Github profile with a photo, email address, and a link
-to the portfolio page. I am also following some of my classmates now.
-4) I have adjusted the pinned repos.
-*/
